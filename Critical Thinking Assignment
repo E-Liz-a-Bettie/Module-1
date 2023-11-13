@@ -1,19 +1,14 @@
 # Part 1:
 
-print('Enter first number:', end = ' ')
-num1 = int(input())
-print('Enter second number:', end = ' ')
-num2 = int(input())
-
-print(num1 + num2)
-print(num1 - num2)
+num1 = int(input('Enter integer:\n'))
+num2 = int(input('Enter another integer:\n'))
+print(num1, '+', num2, 'is', num1 + num2)
+print(num1, '-', num2, 'is', num1 - num2)
 
 # Part 2:
 
-print('Enter first number:', end = ' ')
-num1 = int(input())
-print('Enter second number:', end = ' ')
-num2 = int(input())
+num1 = int(input('Enter integer:\n'))
+num2 = int(input('Enter another integer:\n'))
+print(num1, '*', num2, 'is', num1 * num2)
+print(num1, '/', num2, 'is', num1 / num2)
 
-print(num1 * num2)
-print(num1 / num2)
